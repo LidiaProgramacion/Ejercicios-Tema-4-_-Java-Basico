@@ -1,0 +1,11 @@
+package EjerciciosTema4;
+
+public class SmartDevice {
+    //Atributos
+    String marca;
+    String modelo;
+    long bateria;
+    float pantalla;
+    boolean cargador;
+
+    }
