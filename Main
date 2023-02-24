@@ -1,0 +1,20 @@
+package EjerciciosTema4;
+
+public class Main {
+    public static void main(String[] args) {
+    Smartphone S1 = new Smartphone("Samsung", "A 13", 8000L, 6.7f, true);
+
+        System.out.println ("La Marca es: " + S1.getmarca());
+        System.out.println("Modelo ->" + S1.getmodelo());
+        System.out.println("Tiene " + S1.getbateria() + " AH de bateria");
+        System.out.println("La pantalla mide " + S1.getpantalla() + " pulgadas");
+        System.out.println("Tiene cargador: " + S1.getCargador());
+
+    Smartwatch S2 = new Smartwatch("Amazfit", "GTS 4",3000L, 1.6f, false);
+        System.out.println("La marca es: " + S2.getmarca());
+        System.out.println("El modelo es-> " + S2.getmodelo());
+        System.out.println("Tiene " + S2.getbateria() + " AH de bateria");
+        System.out.println("La pantalla tiene " + S2.getbateria() + " pulgadas");
+        System.out.println("Tiene cargador: " + S2.getCargador());
+    }
+}
