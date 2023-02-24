@@ -1,0 +1,32 @@
+package EjerciciosTema4;
+
+public class Smartwatch extends SmartDevice {
+    public Smartwatch() {
+
+    }
+
+    public Smartwatch (String marca, String modelo, long bateria, float pantalla, boolean cargador) {
+        super();
+        this.marca = marca;
+        this.modelo =modelo;
+        this.bateria = bateria;
+        this.pantalla = pantalla;
+        this.cargador = cargador;
+    }
+    public String getmarca() {
+        return marca;
+    }
+    public String getmodelo() {
+        return modelo;
+    }
+    public long getbateria() {
+        return bateria;
+    }
+    public float getpantalla() {
+        return pantalla;
+    }
+    public boolean getCargador () {
+        this.cargador = cargador;
+        return false;
+    }
+}
